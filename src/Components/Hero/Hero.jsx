@@ -10,7 +10,9 @@ const Hero = () => {
         </div>
         <div className="grid2">
           <p>Hey there, i am Joshua Tauro, a UI/UX Designer as well as a Fullstack Developer who is currently based in Karnataka, India. I love converting peoples dreams into reality by the means of code</p>
-          <a href="#contact">CONTACT ME</a>
+          <a href="#contact">
+            CONTACT ME
+          </a>
         </div>
       </div>
     </section>
