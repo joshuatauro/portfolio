@@ -1,19 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Navbar.scss'
-const Navbar = () => {
+const Navbar = ({mouseEnter, mouseLeave}) => {
+
   return (
     <nav className="nav">
       <div className="container">
-        <div className="">
-          <h1><span>Joshua Tauro</span></h1>
-          <p> UX/UI Designer, Developer</p>
-        </div>
+        <h1 onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} >Joshua Tauro</h1>
         <ul>
-          <li>about,</li>
-          <li>work,</li>
-          <li>contact</li>
+          <li onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  >about</li>
+          <li onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>works</li>
+          <li onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>contact</li>
         </ul>
       </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim neque temporibus eum exercitationem at. Corrupti ab veritatis aut, sit hic ipsum quos eaque, expedita vel, ex fuga quis in minus.</p>
     </nav>
   )
 }

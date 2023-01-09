@@ -1,0 +1,10 @@
+.cursor{
+  padding: 7.5px;
+  background-color: white;
+  mix-blend-mode: difference;
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: padding 700ms 
+}
+
